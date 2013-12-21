@@ -16,8 +16,8 @@
 		</feature>
         </config-file>
 
-	<header-file src="BackgroundMode.h" />
-	<source-file src="BackgroundMode.m" />
+	<header-file src="src/ios/BackgroundMode.h" />
+	<source-file src="src/ios/BackgroundMode.m" />
 
     </platform>
 
