@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.phonegap.plugins.BackgroundMode" version="0.2.3">
+
+    <name>BackgroundMode</name>
+    <description>Protecting PhoneGap applications on iOS from getting suspended</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,background</keywords>
+
+    <!-- ios -->
+    <platform name="ios">
+
+        <config-file target="config.xml" parent="/*">
+		<feature name="BackgroundMode">
+			<param name="ios-package" value="BackgroundMode"/>
+		</feature>
+        </config-file>
+
+	<header-file src="BackgroundMode.h" />
+	<source-file src="BackgroundMode.m" />
+
+    </platform>
+
+</plugin>
