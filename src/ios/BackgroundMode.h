@@ -7,7 +7,7 @@
 #ifndef AlephBeta_BackgroundMode_h
 #define AlephBeta_BackgroundMode_h
 
-#import <Cordova/CDV.h>
+#import <Cordova/CDVPlugin.h>
 
 @interface BackgroundMode : CDVPlugin
 
